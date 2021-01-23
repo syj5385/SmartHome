@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "813949817844",
+    "firebase_url": "https://geniusiot-214306.firebaseio.com",
+    "project_id": "geniusiot-214306",
+    "storage_bucket": "geniusiot-214306.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813949817844:android:da0599e9583425b6",
+        "android_client_info": {
+          "package_name": "jjun.geniusiot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813949817844-8s8uspf5es49od9iuf1p5d419iivvbb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jjun.geniusiot",
+            "certificate_hash": "61eb1784f4d9fa3d3b3db2679e514f1a1fca9506"
+          }
+        },
+        {
+          "client_id": "813949817844-kpopmre9kef7lj4opjen1ptqqq2m7sbl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVQLJ5jcZiD2UCs_R7JqmHHi1WnF9EzYs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813949817844-kpopmre9kef7lj4opjen1ptqqq2m7sbl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

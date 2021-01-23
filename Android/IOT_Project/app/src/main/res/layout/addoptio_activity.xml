@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용자 옵션 추가"
+        android:textColor="@color/colorSelected"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="옵션 이름(2~15 글자)"
+        android:textSize="25dp"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:id="@+id/optionName"
+        android:textColor="#000000"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/devicelist"
+        android:layout_weight="1">
+
+    </ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="저  장"
+        android:id="@+id/save"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+
+</LinearLayout>

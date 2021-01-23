@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/home"
+        android:id="@+id/home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="chat"
+        android:id="@+id/chat"
+        app:layout_constraintLeft_toRightOf="@id/home"
+        app:layout_constraintTop_toTopOf="@id/home"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#000000"
+        android:textColor="#efefef"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/time_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="time"
+        app:layout_constraintLeft_toLeftOf="@id/chat"
+        app:layout_constraintTop_toBottomOf="@id/chat" />
+</android.support.constraint.ConstraintLayout>

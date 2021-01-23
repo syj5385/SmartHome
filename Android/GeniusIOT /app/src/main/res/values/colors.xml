@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="basicTextColor">#efefef</color>
+
+    <color name="level0Color">#0070c0</color>
+    <color name="level0SetColor">#00355c</color>
+
+    <color name="level1Color">#00b0f0</color>
+    <color name="level1SetColor">#00678c</color>
+
+    <color name="level2Color">#33cccc</color>
+    <color name="level2SetColor">#1f7f7d</color>
+
+    <color name="level3Color">#00b050</color>
+    <color name="level3SetColor">#004c22</color>
+
+    <color name="level4Color">#ffc000</color>
+    <color name="level4SetColor">#9c7700</color>
+
+    <color name="level5Color">#ed7d31</color>
+    <color name="level5SetColor">#ab4e0f</color>
+
+    <color name="level6Color">#ff0000</color>
+    <color name="level6SetColor">#9c0000</color>
+
+    <color name="level7Color">#757171</color>
+    <color name="level7SetColor">#424040</color>
+
+    <color name="yellowColor">#ECC8BE</color>
+    <color name="colorSelected">#FF5E00</color>
+
+
+    <color name="splashBackColor">#E1F5EA</color>
+    <color name="statusColor">#FF3636</color>
+
+    <color name="selectedColor">#91C6C1</color>
+    <color name="nonselectedColor">#E1F5EA</color>
+
+</resources>
